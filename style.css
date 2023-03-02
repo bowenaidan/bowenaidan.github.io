@@ -53,6 +53,28 @@
     width: 76%;
 }
 
+#buttonHolder {
+    position: sticky;
+    top: 0;
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+
+.button {
+    position: sticky;
+    top: 0;
+    width: 150px;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 16px;
+    border: none;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .projects {
     margin: auto;
     width: 80%;
@@ -94,6 +116,86 @@
     background-image: linear-gradient(to bottom right, rgb(163, 65, 172), rgb(231, 113, 241));
 }
 
+nav {
+    display: block;
+    position: fixed;
+    background-image: linear-gradient(to right, rgb(52, 78, 47), rgb(51, 51, 51));
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 320px;
+    left: -300px;
+    top: 0;
+    bottom: 0;
+    transition: all 0.5s;
+    z-index: 3;
+    opacity: 0;
+}
+
+.open nav {
+    left: 0;
+    opacity: 1;
+} 
+
+nav .insideMenu {
+    padding: 25px;
+    /* background-color: blue; */
+}
+
+nav .insideMenu ul li {
+    /* font-variant: small-caps; */
+    margin: 0;
+    /* border-bottom: 1px solid white; */
+    list-style-type: none;
+}
+
+nav .insideMenu ul li a {
+    display: block;
+    width: 150px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 16px;
+    border: none;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    transition-duration: 0.2s;
+}
+
+nav .insideMenu ul li a:hover {
+    background-color: rgb(58, 160, 37);
+}
+
+nav p {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
+#mask {
+    display: none;
+    transition: all 0.5s;
+}
+
+.open #mask {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    top: 0;
+    left: 0;
+    position: fixed;
+    opacity: 0.8;
+    z-index: 2;
+    cursor: pointer;
+}
+
 body {
     background-color: rgb(43, 43, 43);
+}
+
+p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
