@@ -1,0 +1,99 @@
+#main {
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(to bottom, rgb(58, 160, 37), rgb(43, 43, 43));
+}
+
+#profilePic {
+    position:relative;
+    width: 350px;
+    height: auto;
+    border-radius: 50%;
+    top: 5%;
+    left: 40%;
+}
+
+#profilePicBox {
+    /* background-color: blue; */
+    width: 35%;
+    height: 400px;
+}
+
+#profileDesc {
+    /* background-color: blue; */
+    width: fit-content;
+    height: 200px;
+}
+
+#profileTitle {
+    color: white;
+}
+
+.profileBar {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    /* margin: 0px; */
+    padding: 0px;
+}
+
+.profileBar h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 120px;
+}
+
+#projectsTitle {
+    /* background-color: blue; */
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    width: 76%;
+}
+
+.projects {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: blue; */
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    /* height: 500px; */
+}
+
+.subProjects {
+    /* background-color: blue; */
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    padding: 15px;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 20px;
+}
+
+#group {
+    background-image: linear-gradient(to bottom right, rgb(65, 65, 172), rgb(93, 93, 245));
+}
+
+#data {
+    background-image: linear-gradient(to bottom right, rgb(172, 156, 65), rgb(247, 224, 93));
+}
+
+#vr {
+    background-image: linear-gradient(to bottom right, rgb(65, 160, 172), rgb(112, 226, 241));
+    /* background-color: rgb(65, 160, 172); */
+}
+
+#web {
+    /* background-color: rgb(163, 65, 172); */
+    background-image: linear-gradient(to bottom right, rgb(163, 65, 172), rgb(231, 113, 241));
+}
+
+body {
+    background-color: rgb(43, 43, 43);
+}
