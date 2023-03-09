@@ -6,7 +6,8 @@
 
 #main {
     width: 100%;
-    height: 400px;
+    /* height: 400px; */
+    height: 60vh;
     background-image: linear-gradient(to bottom, rgb(58, 160, 37), rgb(43, 43, 43));
 }
 
@@ -27,13 +28,16 @@
     color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
     margin: auto;
-    padding: 0px;
+    padding-left: 10px;
 }
 
 #profilePicBox {
     /* background-color: blue; */
     width: 20vw;
-    height: 20vw;
+    /* previously 20vw */
+    height: 0;
+    /* previously no padding */
+    padding-bottom: 20vw;
     display: flex;
     /* justify-content: center; */
     vertical-align: middle;
@@ -41,9 +45,10 @@
 }
 
 #profilePic {
+    /* object-fit: scale-down; */
     position:relative;
-    width: 90%;
-    height: 90%;
+    width: 20vw;
+    height: 20vw;
     border-radius: 50%;
     vertical-align: middle;
     top: 5%;
@@ -66,7 +71,7 @@
     margin: 0px;
     padding: 0px;
     /* font size was 120px */
-    font-size: 120px;
+    font-size: 7.5vw;
 }
 
 #projectsTitle {
