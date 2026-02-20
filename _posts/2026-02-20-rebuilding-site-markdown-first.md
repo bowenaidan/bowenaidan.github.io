@@ -1,6 +1,7 @@
 ---
 layout: default
 title: rebuilding this site as a build log
+project: misc
 tags: [site, writing, workflow]
 ---
 
