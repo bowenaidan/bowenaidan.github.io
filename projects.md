@@ -7,7 +7,7 @@ permalink: /projects/
 ## project highlights
 
 ### Fantasy Hoops
-Habit-first budgeting app focused on recurring charges and weekly check-ins.
+Custom fantasy basketball game with automated scoring.
 
 {% assign fantasyhoops_posts = site.posts | where: "project", "fantasy-hoops" | sort: "date" | reverse %}
 {% if fantasyhoops_posts.size > 0 %}
