@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-## Portfolio Highlights
+## project highlights
 
 ### Fantasy Hoops
 Habit-first budgeting app focused on recurring charges and weekly check-ins.
