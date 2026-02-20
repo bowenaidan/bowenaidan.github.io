@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Project spotlight - SnapBudget
+project: snapbudget
 tags: [portfolio, finance, habits]
 ---
 

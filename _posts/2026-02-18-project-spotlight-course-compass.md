@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Project spotlight - Course Compass
+project: snapbudget
 tags: [portfolio, product, education]
 ---
 
