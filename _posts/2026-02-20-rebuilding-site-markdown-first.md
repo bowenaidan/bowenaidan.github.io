@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Rebuilding this site as markdown-first
+title: rebuilding this site as a build log
 tags: [site, writing, workflow]
 ---
 
 I moved this site to a Ruby markdown workflow so publishing updates is frictionless.
 
-Now I can ship backlog and portfolio updates by editing markdown files and committing.
+Tracking and publishing work is as simple as creating a new 'blog' post. I don't intend for this to become a real blog as I am not much for writing. However there are benfits of doing this:
 
-- Better writing flow
-- Easier version history
-- Cleaner content/layout separation
+- keeping myself accountable
+- documenting my learnings so I can see my progress clearly
+- kind of a cool concept to play around with 
