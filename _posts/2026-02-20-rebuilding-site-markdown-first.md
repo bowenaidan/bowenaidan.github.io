@@ -2,7 +2,7 @@
 layout: default
 title: rebuilding this site as a build log
 project: misc
-tags: [site, writing, workflow]
+tags: [site, workflow]
 ---
 
 I moved this site to a Ruby markdown workflow so publishing updates is frictionless.
