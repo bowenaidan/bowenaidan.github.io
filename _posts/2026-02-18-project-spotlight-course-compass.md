@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Project spotlight: Course Compass
+title: Project spotlight - Course Compass
 tags: [portfolio, product, education]
 ---
 
