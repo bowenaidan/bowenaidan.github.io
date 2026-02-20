@@ -1,44 +1,77 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'PT Sans', sans-serif;
-  }
-  
-  .home,
-  .services,
-  .products,
-  .sign-up {
-    display: flex;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-  }
-  
-  .services {
-    background-image: url('/public/images/img-2.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .products {
-    background-image: url('/public/images/img-1.jpg');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .sign-up {
-    background-image: url('/public/images/img-8.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f8f4ec;
+  color: #2d261f;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.app {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 3rem 1.25rem 4rem;
+}
+
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #211b15;
+  line-height: 1.2;
+}
+
+.markdown-content h1 {
+  font-size: clamp(2rem, 4vw, 2.7rem);
+  margin-bottom: 0.4rem;
+}
+
+.markdown-content h2 {
+  margin-top: 2.2rem;
+  margin-bottom: 0.85rem;
+  font-size: 1.45rem;
+}
+
+.markdown-content h3 {
+  margin-top: 1.4rem;
+  margin-bottom: 0.55rem;
+  font-size: 1.15rem;
+}
+
+.markdown-content p,
+.markdown-content li {
+  color: #4f463b;
+  font-size: 1.02rem;
+  line-height: 1.72;
+}
+
+.markdown-content p {
+  margin-bottom: 0.8rem;
+}
+
+.markdown-content ul {
+  margin: 0.3rem 0 1.1rem 1.35rem;
+}
+
+.markdown-content li {
+  margin-bottom: 0.35rem;
+}
+
+.markdown-content hr {
+  border: 0;
+  border-top: 1px solid #dfd1bb;
+  margin: 1.35rem 0;
+}
+
+.markdown-content a {
+  color: #6f4f2d;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.markdown-content strong {
+  color: #2e2419;
+}

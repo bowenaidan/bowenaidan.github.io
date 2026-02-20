@@ -1,0 +1,9 @@
+title: Aidan Bowen
+email: aidanbow@outlook.com
+description: Build notes, portfolio updates, and backlog entries.
+baseurl: ''
+url: ''
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+theme: null
+plugins: []

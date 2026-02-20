@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}" />
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="site-header">
+        <p class="eyebrow">{{ site.title }}</p>
+        <h1>build notes, backlog, and portfolio</h1>
+        <p class="intro">this is supposed to serve as a tracker for things that I'm working on/doing.</p>
+        <nav>
+          <a href="{{ '/' | relative_url }}">home</a>
+          <a href="{{ '/backlog/' | relative_url }}">backlog</a>
+          <a href="{{ '/projects/' | relative_url }}">projects</a>
+        </nav>
+      </header>
+
+      {{ content }}
+    </main>
+  </body>
+</html>
