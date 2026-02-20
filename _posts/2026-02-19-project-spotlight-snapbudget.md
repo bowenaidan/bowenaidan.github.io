@@ -1,10 +1,8 @@
 ---
 layout: default
-title: Project spotlight - SnapBudget
-project: snapbudget
+title: Project spotlight - FantasyHoops
+project: fantasy-hoops
 tags: [portfolio, finance, habits]
 ---
 
-SnapBudget is a lightweight budgeting app that leans into behavior design, not just expense logging.
-
-I am currently tuning recurring-charge detection and weekly check-in reminders.
+Fantasy Hoops is a customized fantasy games where players score points based on their NCAAMBB teams' wins.
