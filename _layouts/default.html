@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}" />
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="site-header">
+        <p class="eyebrow">{{ site.title }}</p>
+        <h1>Build Notes, Backlog & Portfolio</h1>
+        <p class="intro">A markdown-first Ruby (Jekyll) site for writing updates and tracking what I am building.</p>
+        <nav>
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/backlog/' | relative_url }}">Backlog</a>
+          <a href="{{ '/projects/' | relative_url }}">Projects</a>
+        </nav>
+      </header>
+
+      {{ content }}
+    </main>
+  </body>
+</html>
