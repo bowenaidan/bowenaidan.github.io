@@ -26,7 +26,7 @@ Habit-first budgeting app focused on recurring charges and weekly check-ins.
 
 {% assign snapbudget_posts = site.posts | where: "project", "snapbudget" | sort: "date" | reverse %}
 {% if snapbudget_posts.size > 0 %}
-#### Related updates
+#### Latest update
 {% for post in snapbudget_posts limit:1 %}
 <article>
   <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
