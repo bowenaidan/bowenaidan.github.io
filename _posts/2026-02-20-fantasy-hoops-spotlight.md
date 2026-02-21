@@ -2,7 +2,6 @@
 layout: default
 title: Project Spotlight - Fantasy Hoops
 project: fantasy-hoops
-backlog: done
 tags: [project, writeup]
 ---
 
