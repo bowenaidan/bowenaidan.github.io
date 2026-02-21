@@ -1,8 +1,8 @@
 ---
 layout: default
-title: update the css for posts on backlog and projects
+title: update the css
 project: misc
-backlog: todo
+backlog: done
 tags: [portfolio]
 ---
 

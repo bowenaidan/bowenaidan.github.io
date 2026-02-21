@@ -13,8 +13,8 @@ permalink: /backlog/
 ### working on...
 {% for post in in_progress_posts %}
 <article>
-  <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
-  <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.tags %} · {{ post.tags | join: ", " }}{% endif %}</p>
+  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+  <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.project %} · {{ post.project | join: ", " }}{% endif %}{% if post.backlog %} · {{ post.backlog | join: ", " }}{% endif %}</p>
   <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
 </article>
 {% endfor %}
@@ -27,8 +27,8 @@ permalink: /backlog/
 ### todo
 {% for post in todo_posts %}
 <article>
-  <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
-  <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.tags %} · {{ post.tags | join: ", " }}{% endif %}</p>
+  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+  <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.project %} · {{ post.project | join: ", " }}{% endif %}{% if post.backlog %} · {{ post.backlog | join: ", " }}{% endif %}</p>
   <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
 </article>
 {% endfor %}
@@ -41,8 +41,8 @@ permalink: /backlog/
 ### recently done
 {% for post in done_posts limit:3 %}
 <article>
-  <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
-  <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.tags %} · {{ post.tags | join: ", " }}{% endif %}</p>
+  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+  <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.project %} · {{ post.project | join: ", " }}{% endif %}{% if post.backlog %} · {{ post.backlog | join: ", " }}{% endif %}</p>
   <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
 </article>
 {% endfor %}
