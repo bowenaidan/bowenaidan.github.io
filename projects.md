@@ -7,7 +7,7 @@ permalink: /projects/
 ## Project Highlights
 ---
 
-### fantasy-hoops
+### [fantasy-hoops](https://github.com/bowenaidan/fantasy-hoops)
 Custom fantasy basketball game with automated scoring.
 
 {% assign fantasyhoops_posts = site.posts | where: "project", "fantasy-hoops" | sort: "date" | reverse %}
@@ -21,8 +21,8 @@ Custom fantasy basketball game with automated scoring.
 </article>
 {% endfor %}
 {% endif %}
----
 
+---
 ### misc.
 This could be anything small that I wouldn't consider much of a project. Not that a project has to be big!
 
@@ -37,4 +37,3 @@ This could be anything small that I wouldn't consider much of a project. Not tha
 </article>
 {% endfor %}
 {% endif %}
----
