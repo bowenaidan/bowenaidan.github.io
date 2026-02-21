@@ -4,9 +4,6 @@ title: Projects
 permalink: /projects/
 ---
 
-## Project Highlights
----
-
 ### [fantasy-hoops](https://github.com/bowenaidan/fantasy-hoops)
 Custom fantasy basketball game with automated scoring.
 

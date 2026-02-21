@@ -20,6 +20,9 @@
         </nav>
       </header>
 
+      <h2>{{ page.title | default: site.title }}</h2>
+      <hr />
+
       {{ content }}
     </main>
   </body>

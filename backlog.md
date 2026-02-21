@@ -4,10 +4,6 @@ title: Backlog
 permalink: /backlog/
 ---
 
-## Backlog
----
-
-
 {% assign in_progress_posts = site.posts | where: "backlog", "in-progress" | sort: "date" | reverse %}
 {% if in_progress_posts.size > 0 %}
 ### working on...
