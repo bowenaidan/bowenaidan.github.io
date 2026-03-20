@@ -13,3 +13,5 @@ If it still does not get the reservation, I need to troubleshoot and come up wit
 UPDATE:
 
 Fixed! Changed the poll interval to every 100ms and was able to find a few prime time reservations. We'll see how that is for days like friday and saturday, but now I'm confident that I could make it sufficiently fast if need be.
+
+Was able to use it to book a reservation automatically (2026-03-19)
